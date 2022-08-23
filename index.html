@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="A quick and easy way to generate passwords meeting any requirements.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instant Password Generator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="gen-body">
+            <label for="app-header"><div style="font-size: 26px; margin-bottom: -20px;"><b>Instant Password Generator</b></div></label><br>
+            <label for="app-description">Create passwords meeting any requirements.</label><br>
+            <label for="credits"><b><a href="https://github.com/fleasonrats/Instant-Password-Generator">Visit The GitHub Page!</a></b></label>
+            <div class="pass-container">
+                <div class="pass-header">
+                    <div class="pass">
+                        <span id="pass">Password</span>
+                        <button id="copy">Copy to Clipboard</button>
+                    </div>
+                </div>
+                <div class="pass-body">
+                    <div class="form-control">
+                        <label for="length">Password Length</label>
+                        <input id="length" value="10" type="number" min="8" max="40">
+                    </div>
+                    <div class="form-control">
+                        <label for="upper">Contains Uppercase Letters</label>
+                        <input id="upper" type="checkbox" checked="true">
+                    </div>
+                    <div class="form-control">
+                        <label for="lower">Contains Lowercase Letters</label>
+                        <input id="lower" type="checkbox" checked="true">
+                    </div>
+                    <div class="form-control">
+                        <label for="number">Contains Numbers</label>
+                        <input id="number" type="checkbox" checked="true">
+                    </div>
+                    <div class="form-control">
+                        <label for="symbol">Contains Symbols</label>
+                        <input id="symbol" type="checkbox" checked="true">
+                    </div>
+                    <button class="generate" id="generate">Generate New Password</button>
+                </div>
+            </div>
+            <label for="version"><div style="text-align: right">App Version: 1</div></label>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
