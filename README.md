@@ -7,5 +7,5 @@ This is a web-based simple password generator that creates secure passwords of l
 Type in your desired password length, use the checkboxes to select criteria for your password (by default all options are checked), and click Generate New Password.
 
 <h1>Version History</h1>
-<b>[8/18/2022] Version 1 (Alpha):</b> constructed IPG interface and generator
+<b>[8/18/2022] Version 1 (Alpha):</b> constructed IPG interface and generator </br>
 > updated width style to be mobile friendly
