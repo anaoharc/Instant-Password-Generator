@@ -1,6 +1,6 @@
 # Instant Password Generator
 
-<b>LIVE PREVIEW:</b> <a href="https://fleasonrats.github.io/Instant-Password-Generator/">https://fleasonrats.github.io/Instant-Password-Generator/</a>
+<b>LIVE PREVIEW:</b> <a href="https://anaoharc.github.io/Instant-Password-Generator/">https://anaoharc.github.io/Instant-Password-Generator/</a>
 
 This is a web-based simple password generator that creates secure passwords of lengths between 8-40 characters that use your choice of upper/lowercase characters, symbols, and numbers. I wrote this program in order to practice HTML and CSS markup as well as get a better understanding of basic JavaScript function capabilities and event-based actions.
 
